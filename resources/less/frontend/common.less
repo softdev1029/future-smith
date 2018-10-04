@@ -1,0 +1,140 @@
+/**
+ * @author Dejan
+ * @since  Sep 21, 2018
+ */
+
+@less: "..";
+@import "@{less}/_variables.less";
+@import "@{less}/_mixins.less";
+
+body {
+	background-color: #FFF;
+}
+
+.navbar-light .navbar-nav {
+}
+
+ .navbar-laravel {
+ 	.box-shadow(0px 0px 0px);
+	background-color: #F8F8F8;
+	border-bottom: 1px solid #979797;
+
+	.navbar-brand {
+		color: #636363;
+		font-family: Assistant;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+ 	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				color: #636363;
+				font-family: Assistant;
+				font-size: 16px;
+				font-weight: bold;
+			}
+
+			&.signup-or-login {
+				background-color: #D8D8D8;
+
+				color: #636363;
+				font-family: Assistant;
+				font-size: 16px;
+				border-radius: 28.5px;
+				.nav-link {
+					display: inline-block;
+					color: #FFF;
+				}
+			}
+		}
+
+		.notifications {
+			.dropdown-menu {
+				max-width: 30rem;
+				min-width: 20rem;
+			}
+			.dropdown-item {
+				white-space: normal;
+			}
+
+			span.badge-pill.badge-danger {
+				position: absolute;
+				right: 0px;
+				top: -2px;
+			}
+		}
+	}
+}
+
+.user-list-title {
+  &:extend(.title-21);
+}
+
+.user-list {
+
+  padding: 10px;
+
+  .user-list-item {
+    .border-bottom();
+  }
+
+  .user-avatar {
+    height: 60px;
+    width: 67px;
+    border: 1px solid #979797;
+    .border-radius(3rem) !important;
+  }
+
+  // user name
+  .user-name {
+    color: #337AB7;
+  }
+
+  // user role
+  .user-role {
+    &:extend(.title-16);
+  }
+}
+
+.site-footer {
+	background-color: #EBDBDF;
+	text-align: center;
+	margin-top: 200px;
+
+	h2 {
+		color: #4E1A3F;
+		font-family: Assistant;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	p {
+		color: #4A4A4A;
+		font-family: Assistant;
+		font-size: 18px;
+	}
+
+	.footer-images {
+		margin-bottom: 60px;
+	}
+
+	img {
+		width: 200px;
+
+		.odd {
+			height: 80px;
+		}
+
+		.even {
+			height: 100px;
+		}
+	}
+
+	h4 {
+		color: #FFFFFF;
+		font-family: Assistant;
+		font-size: 12px;
+		background-color: #4E1A3F;
+	}
+}

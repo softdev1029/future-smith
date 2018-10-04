@@ -1,0 +1,32 @@
+/**
+ * @author Dejan
+ * @since  Sep 19, 2018
+ */
+
+@less: "../../..";
+@import "@{less}/_variables.less";
+@import "@{less}/_mixins.less";
+
+.project-overview-body {
+  padding-left: 30px;
+}
+
+.project-overview-box {
+  border: 1px solid #979797;
+  border-radius: 4px;
+  background-color: #F6F6F6;
+  padding: 15px;
+}
+
+.project-overview-box.project-infos {
+  padding-top: @padding-small;
+  padding-bottom: @padding-small;
+}
+
+.project-infos-title {
+  &:extend(.title-16);
+}
+
+.project-infos-content {
+  &:extend(.content-light-16);
+}

@@ -1,0 +1,35 @@
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.btn.btn-gray {
+  background-color: @button-gray-color;
+  height: 38px;
+  .border-radius(20.5px);
+  color: #FFF;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  font-size: 16px;
+}
+
+.btn-light-gray-rect {
+  background-color: @button-light-gray-color;
+  height: 38px;
+  color: #5D5D5D;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #979797;
+
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-light-gray {
+  .btn-light-gray-rect();
+  .border-radius(20.5px);
+}

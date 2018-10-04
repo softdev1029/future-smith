@@ -1,0 +1,43 @@
+/**
+ * @author Dejan
+ * @since  Sep 24, 2018
+ */
+
+ @import "mixins/_button.less";
+ @import "mixins/_text.less";
+
+.border-r (@a, @b, @c, @d){
+    -webkit-border-radius: @a @b @c @d;
+       -moz-border-radius: @a @b @c @d;
+            border-radius: @a @b @c @d;
+}
+.border-radius(@a, @b, @c, @d) when (isnumber(@a)) and (isnumber(@b)) and (isnumber(@c)) and (isnumber(@d)){
+    .border-r(@a, @b, @c, @d);
+}
+.border-radius(@r) when (isnumber(@r)) {
+    -webkit-border-radius: @r;
+       -moz-border-radius: @r;
+            border-radius: @r;
+}
+.box-shadow (@string) {
+    -webkit-box-shadow: @string;
+       -moz-box-shadow:    @string;
+            box-shadow:         @string;
+}
+
+.border-top () {
+  border-top: 1px solid @border-black-color;
+}
+
+.border-bottom () {
+  border-bottom: 1px solid @border-black-color;
+}
+
+.limit-line(@line-height: 1.8em; @lines: 1) {
+  /* limit text lines to 1 */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  height: @line-height * @lines;
+  line-height: @line-height;
+}

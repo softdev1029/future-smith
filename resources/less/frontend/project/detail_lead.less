@@ -1,0 +1,51 @@
+/**
+ * @author Dejan
+ * @since  Sep 19, 2018
+ */
+
+@less: "../..";
+@import "@{less}/_variables.less";
+@import "@{less}/_mixins.less";
+
+.project-cover {
+  height: 256px;
+  width: 476px;
+  padding-right: 25px;
+}
+
+.project-title {
+  &:extend(.title-28);
+}
+
+.project-summary {
+  color: #4D4D4D;
+
+  font-family: "Open Sans";
+  font-size: 18px;
+
+  padding-top: @padding-small;
+  padding-bottom: @padding-small;
+}
+
+.project-nav {
+  padding-bottom: @padding-medium;
+}
+
+.project-nav-link {
+  color: #8B8B8B;
+
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: bold;
+
+  &:link:active, &:hover {
+    color: #651E9F;
+    border-bottom: 4px solid #6F25C8;
+  }
+}
+
+.project-edit-btn {
+  float: left;
+
+  padding-right: 10px;
+}

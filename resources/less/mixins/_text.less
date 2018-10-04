@@ -1,0 +1,86 @@
+// content
+.font-lato {
+  font-family: Lato;
+}
+
+.font-open-sans {
+  font-family: "Open Sans";
+}
+
+.content {
+  color: @black-color;
+  .font-lato();
+}
+
+.content-light {
+  color: @light-gray-color;
+  .font-lato();
+}
+
+.content-16 {
+  &:extend(.content);
+  font-size: 16px;
+}
+
+.content-light-16 {
+  &:extend(.content-light);
+  font-size: 16px;
+}
+
+.content-18 {
+  &:extend(.content);
+  font-size: 18px;
+}
+
+// title
+.title {
+  &:extend(.content);
+  font-weight: bold;
+}
+
+.title-16 {
+  &:extend(.title);
+  font-size: 16px;
+}
+
+.title-21 {
+  &:extend(.title);
+  font-size: 21px;
+}
+
+.title-28 {
+  &:extend(.title);
+  font-size: 28px;
+}
+
+.title-37 {
+  &:extend(.title);
+  font-size: 37px;
+}
+
+// specific title
+.title-blue {
+  color: @blue-color;
+  .font-lato();
+  font-weight: bold;
+}
+
+.title-blue-16 {
+  &:extend(.title-blue);
+  font-size: 16px;
+}
+
+.title-blue-18 {
+  &:extend(.title-blue);
+  font-size: 18px;
+}
+
+.title-gray {
+  color: @gray-color;
+  .font-open-sans();
+}
+
+.title-gray-18 {
+  &:extend(.title-gray);
+  font-size: 18px;
+}

@@ -1,0 +1,117 @@
+/**
+ * @author Dejan
+ * @since  Sep 19, 2018
+ */
+
+@less: "../..";
+@import "@{less}/_variables.less";
+@import "@{less}/_mixins.less";
+
+.tribe-overview-box {
+}
+
+.tribe-infos {
+  padding-top: @padding-medium;
+  padding-bottom: @padding-medium;
+}
+
+.tribe-name {
+  &:extend(.title-28);
+}
+
+.tribe-indicator {
+  &:extend(.title-16);
+}
+
+.tribe-location {
+  &:extend(.title-gray-18);
+}
+
+.tribe-member-count {
+  &:extend(.title-16);
+}
+
+.tribe-cover-div {
+
+}
+
+.tribe-cover-img {
+  max-width: 460px;
+  max-height: 271px;
+  height: 100%;
+  width: 100%;
+}
+
+.tribe-summary {
+  color: #4D4D4D;
+  .font-open-sans();
+  font-size: 14px;
+  padding-bottom: @padding-large;
+}
+
+.tribe-join {
+}
+
+.tribe-members-two-boxes {
+  padding-top: @padding-large;
+}
+
+.tribe-members-header {
+  overflow: auto;
+  border: 0px;
+}
+
+.tribe-members-title {
+  &:extend(.title-21);
+  span {
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: -2px;
+  }
+}
+
+.tribe-members-see-all {
+  &:extend(.title-blue-18);
+  float: right;
+}
+
+.tribe-project-members-header {
+  overflow: auto;
+}
+
+.tribe-project-members-title {
+  &:extend(.title-21);
+  span {
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: -2px;
+  }
+}
+
+.tribe-project-members-see-all {
+  &:extend(.title-blue-18);
+  float: right;
+}
+
+/* sm */
+@media (max-width: 576px) {
+
+}
+
+/* md */
+@media (max-width: 768px) {
+
+}
+
+/* lg */
+@media (max-width: 992px) {
+  .tribe-members-header {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+  }
+}
+
+/* xl */
+@media (max-width: 1200px) {
+
+}

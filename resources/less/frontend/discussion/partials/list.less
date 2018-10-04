@@ -1,0 +1,34 @@
+/**
+ * @author Dejan
+ * @since  Sep 19, 2018
+ */
+
+@less: "../../..";
+@import "@{less}/_variables.less";
+@import "@{less}/_mixins.less";
+
+.post-input {
+  width: 95%;
+  height: 35px;
+  margin: 5px;
+}
+
+.post-date {
+  &:extend(.title-16);
+  float: left;
+  margin-right: 10px;
+}
+
+.post-user {
+  &:extend(.title-blue-16);
+}
+
+.post-title {
+  &:extend(.title-28);
+}
+
+.post-summary {
+  &:extend(.content-18);
+  .border-bottom();
+  padding-bottom: @padding-small;
+}

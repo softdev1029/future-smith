@@ -1,0 +1,24 @@
+[submodule "public/css/fonts/simple-line-icons"]
+	path = public/css/fonts/simple-line-icons
+	url = https://github.com/thesabbir/simple-line-icons.git
+[submodule "public/plugins/bs-maxlength"]
+	path = public/plugins/bs-maxlength
+	url = https://github.com/mimo84/bootstrap-maxlength.git
+[submodule "public/plugins/jquery-form"]
+	path = public/plugins/jquery-form
+	url = https://github.com/jquery-form/form.git
+[submodule "public/plugins/owlcarousel2"]
+	path = public/plugins/owlcarousel2
+	url = https://github.com/OwlCarousel2/OwlCarousel2.git
+[submodule "public/plugins/select2"]
+	path = public/plugins/select2
+	url = https://github.com/select2/select2.git
+[submodule "public/plugins/malihu-scrollbar"]
+	path = public/plugins/malihu-scrollbar
+	url = https://github.com/malihu/malihu-custom-scrollbar-plugin.git
+[submodule "public/plugins/jquery-cookie"]
+	path = public/plugins/jquery-cookie
+	url = https://github.com/carhartl/jquery-cookie.git
+[submodule "public/plugins/jquery-validation"]
+	path = public/plugins/jquery-validation
+	url = https://github.com/jquery-validation/jquery-validation.git

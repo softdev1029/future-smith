@@ -1,0 +1,53 @@
+a:hover {
+    text-decoration: none !important;
+}
+
+/* File Uploader */
+.file-upload-container {
+    .fileinput-files {
+        margin-top: 3px;
+    }
+
+    .fileinput .form-control {
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    .fileinput.fileinput-exists .close {
+        display: none;
+        margin-left: 10px;
+    }
+
+    .fileinput.fileinput-new .close {
+        display: none;
+    }
+
+    .attachments {
+        padding-left: 10px;
+        padding-top: 10px;
+        overflow: hidden;
+        .file {
+            line-height: 20px;
+            margin-bottom: 5px;
+            float: left;
+            padding-right: 20px;
+        }
+    }
+
+    .file {
+        &.unused .link-delete {
+            color: #FF0000;
+        }
+    }
+}
+
+.page-title {
+    font-size: 20px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.no-data {
+    font-size: 20px;
+}

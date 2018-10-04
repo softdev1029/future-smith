@@ -1,0 +1,152 @@
+/**
+ * @author Dejan
+ * @since  Sep 19, 2018
+ */
+
+@less: "../..";
+@import "@{less}/_variables.less";
+@import "@{less}/_mixins.less";
+
+a.add-project-link {
+	text-decoration: none;
+}
+
+.projects-page-title {
+
+}
+
+.projects-page-slogan {
+
+}
+
+.projects-header {
+	h2 {
+		margin: 0;
+		padding: 0;
+		.title-37();
+		float:left;
+		width: 50%;
+	}
+
+	p {
+		color: #585858;
+		font-family: "Open Sans";
+		font-size: 16px;
+		float: right;
+		width: 50%;
+	}
+}
+
+.project-filter {
+	clear: both;
+}
+
+.btn-filter-all, .label-filter, .btn-filter-location {
+	float: left;
+}
+
+.btn-filter-all {
+	box-sizing: border-box;
+	width: 74px;
+	border: 3px solid #1269FB;
+	border-radius: 19px;
+
+	color: #1269FB;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.label-filter {
+	padding-top: 12px;
+}
+
+.btn-filter-location {
+	color: #1269FB;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 8px;
+}
+
+.btn-project-create {
+	float:right;
+}
+
+.project-list {
+	clear: both;
+}
+
+.project-item {
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+	overflow: hidden;
+
+	 margin-bottom: 50px;
+
+	img {
+	  height: 212px;
+		width: 100%;
+	}
+}
+
+.project-image {
+	position: relative;
+
+	span {
+		position: absolute;
+		display: inline-block;
+
+		box-sizing: border-box;
+		height: 33px;
+		width: 122px;
+		border: 2px solid #FFFFFF;
+		border-radius: 8px;
+		background-color: #EBD73E;
+		box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.5);
+
+		color: #444040;
+		font-family: Lato;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		text-shadow: 0 1px 1px 0 rgba(0,0,0,0.38);
+
+		right: 22px;
+		bottom: -15px;
+	}
+}
+
+.project-infos-box {
+	div {
+		color: #ED4869;
+		font-family: "Open Sans";
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	h3 {
+		/* limit text lines to 1 */
+		.limit-line(@lines: 1);
+
+		a {
+			margin: 0;
+			padding: 0;
+			color: #24292E;
+			font-family: Lato;
+			font-size: 28px;
+			font-weight: bold;
+		}
+	}
+
+	p {
+		color: #3C3C3C;
+		font-family: "Open Sans";
+		font-size: 16px;
+		height: 100px;
+
+		/* limit text lines to 3 */
+		.limit-line(@lines: 3);
+	}
+}
