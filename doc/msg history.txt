@@ -1,0 +1,821 @@
+[9/15/2018 6:00:31 AM] Dejan Stankovic: Hi Hiring Manager,
+
+I have gone through your requirement.
+Please check following site.
+www.i jobde sk.com
+
+If you visit this site, you can know about my skills with bootstrap and Laravel.
+I have developed this site from the scratch.
+
+I will wait for your interview.
+
+Thanks
+Dejan
+
+[9/15/2018 6:00:31 AM] Jacqui Storey: Hi Dejan,
+
+Thank you for applying for this project. We'd like to explore the opportunity for you to work with us on our website development.
+
+We are building an online platform for a volunteering community. Part of it has been developed, but we require support for some key features of the site.
+
+We have a broad project plan and a set of requirements in place. With the platform launch happening soon, we have a deadline of 5th Oct.
+
+Please go through the documents and let us know about your availability and whether you will be able to finish in time for the launch.
+Also, do let us know how do you usually progress with your work through Upwork.
+
+Project Plan document:
+https://docs.google.com/document/d/1-hB_aANs6RfISSeSn8kbEkE2o_sT9t7d__36WTh4lGc/edit?usp=sharing
+
+Requirements
+https://docs.google.com/document/d/1w3AxH_urtyLTgQExmdMfitIIsqaxDIk6Tw3IfoZU100/edit?usp=sharing
+
+Best wishes,
+Jacqui
+CEO and Founder of Future Smith
+
+[9/15/2018 7:22:00 AM] Dejan Stankovic: Dear Jacqui,
+
+I have gone through your project plans and requirements.
+I am very interested in your project. :)
+
+So I should work on backend system according to your project plans.
+Let me explain about outline of this job(backend) for me.
+
+
+Dashboard
+1.1 Stats of users
+1.2 Stats of transactions
+User Management
+2.1 List of signup members.
+2.2 Overview of each user
+Tribs Management
+3.1 List of tribs
+3.2 Overview of tribs(members, projects)
+Project Management
+4.1 List of project
+4.2 Overview of Project(By tribs)
+Payment Management.
+5.1 all transactions.
+Settings
+6.1 Strip API configuration
+Message Board
+7.1 Send Message
+6.2 View all message by user.
+Roles and Permission Management
+Subscription Management
+9.1 Add new subscription
+9.2 List of all subscription(By user)
+
+So I can use "Metronic" for admin panel.
+
+In my opinion, that's all. Let me know if I didn't understand about your project.
+Then if you hire me and I can start for now.
+I can devote the 10 hrs works for this project every day including weekend.
+And then I will work according to your timezone and co-workers one.
+
+I will wait for your reply.
+
+Best Regards
+Dejan
+
+
+
+
+
+
+
+
+
+
+[9/16/2018 3:35:24 AM] Filip Blazevski: Hi Dejan, your list of requirements cover a lot. I just want to confirm with you in terms of the tribe management. On top of the requirements listed, would you be able to confirm you would be able to complete the 'membership' side of it. Basically, users can sign up for subscription to use the website (that's global). A user can then for a one-time fee create a tribe (probably pending admin approval from us), other users (that are signed up and have a subscription) can then request to join that tribe, in which the tribe owner can 'approve' or 'deny' requests? Thanks in advance
+
+[9/16/2018 5:45:33 AM] Dejan Stankovic: Dear Filip.
+
+Thanks for your reply.
+I understand management of tribe with your message and requriements.
+Let me explain again to confirm my understanding this system.
+
+
+User can sign up for subscription
+User can create tribe with one-time fee, but this request will be approved by admin. If not so, this request will be on pending status.
+User can join any Trib, but this request will be approved or denied by Trib owner
+After joing tribs, they can create several projects according to their role(member, trib owner, project owner, admin).
+
+Is this right?
+Let me know if I have some misunderstanding for your system.
+
+I will wait for your reply.
+
+Thanks
+Dejan
+
+[9/16/2018 7:02:22 AM] Dejan Stankovic: Hey Jacqui
+
+[9/16/2018 7:02:26 AM] Dejan Stankovic: How are you?
+
+[9/16/2018 7:02:54 AM] Dejan Stankovic: Did you check my last message? I just wanted to discuss about your project.
+
+[9/16/2018 7:23:12 AM] Jacqui Storey: Hi Dejan,
+
+Thank you for clarifying details with us. Points 1-3 are correct.
+
+
+For point number 1, I'd like to add that the user will have to go through a paywall for a recurring subscription payment
+Some clarification for point number 4-- After joining a tribe, a user can create a project irrespective of their role, as long as the number of active/ ongoing projects associated with a tribe is not more than 5.
+
+Hope this helps.
+
+Cheers,
+Jacqui
+
+[9/16/2018 7:45:33 AM] Dejan Stankovic: Dear Jacqui,
+
+Thanks for your reply.
+
+Yes, so in this system, we will use paywall for recurring subscription, not paypal and other payment gateway.
+Then according to your requirement and your last message, users can't create more active projects than 5.
+
+So I think I understand fully about your Tribe management.
+Then would you tell me what is necessary me to start your project, please?
+
+Best Regards
+Dejan
+
+[9/16/2018 8:40:02 AM] Filip Blazevski: Hey Dejan, in regards to more technical questions I will most likely be the contact to talk about any questions related. We have a repository with the current project located here https://bitbucket.org/futuresmiths/futuresmith/src/master/ . For now I've opened the repository to be public so you should be able to see it, have a look at it and let me know if you need anything else? (I'm just about to update the master branch with the SQL script for some test data, you'll need that for the platform)
+
+[9/16/2018 8:44:20 AM] Filip Blazevski: I would like to add a note that what we currently have was built by another person prior to me taking part in this project. I'm volunteering on the front-end aspect of the design of the website, so that's where my role comes in. Just wanted to inform you on what my position is here. I have updated the repository with the SQL script too :)
+
+[9/16/2018 8:45:18 AM] Dejan Stankovic: Hello Filip,
+Thanks for your reply.
+Now I am reviewing your repository
+
+[9/16/2018 8:45:24 AM] Dejan Stankovic: Great
+
+[9/16/2018 8:45:26 AM] Dejan Stankovic: :)
+
+[9/16/2018 8:55:45 AM] Dejan Stankovic: I couldn't find your SQL script in your repository. I have checked in database seeds. But I couldn't aso. can you helpe me?
+Thanks
+
+[9/16/2018 9:17:46 AM] Dejan Stankovic: I just checked some codes on backend.
+But there are some issues on your system.
+
+
+this is not based on Model, your previous developer have used helper as connecting to database. In default on laravel, we have to use model. according to MVC pattern.
+For team works, we need to use database migration. but there ins't anything at all.
+For frontend, I think it is good. you have used Saas.
+
+After receiving your SQL, I can give you some suggestions. :)
+
+[9/16/2018 9:27:52 AM] Filip Blazevski: Ok I'll attach the SQL here directly
+
+[9/16/2018 9:28:10 AM] Filip Blazevski: Please find attached the SQL file
+
+
+
+
+
+
+[9/16/2018 9:35:36 AM] Dejan Stankovic: Thanks for your help.
+
+[9/16/2018 9:35:38 AM] Dejan Stankovic: Quetion
+
+[9/16/2018 9:36:10 AM] Dejan Stankovic: can you check your sql file? because I didn't find trib table. then I checked sql file... missing to create tribe table. Thanks
+
+[9/16/2018 9:36:33 AM] Filip Blazevski: One moment.. I'll re-export my database
+
+[9/16/2018 9:36:38 AM] Dejan Stankovic: thanks
+
+[9/16/2018 9:39:22 AM] Filip Blazevski: This file also includes creating the database called 'tribe' so depending on how you set it up you may have to remove that, otherwise I've exported the entire database in this file
+
+[9/16/2018 9:45:07 AM] Dejan Stankovic: Now it works. :)
+
+[9/16/2018 9:45:15 AM] Dejan Stankovic: Thanks for your help.
+
+[9/16/2018 9:51:26 AM] Dejan Stankovic: then I think there are some issues on database structure...
+
+[9/16/2018 9:52:37 AM] Dejan Stankovic: and I have checked whole sites in my local... Some features was already implemented. But not all... :)
+
+[9/16/2018 9:55:59 AM] Filip Blazevski: Yes so basically we aren't sure if you would consider continuing with what is done or rebuild some components if you think that is better. As you described connected to the database was used by a helper rather than model. The current website has a theme but that was originally a template, as such we don't want to go with that theme anymore. You can see the front-end I've designed so far if you check out the repository and go onto the filip-develop branch.. Most updates there are front-end changes, with some minor backend changes for items. Feel free to have a look :)
+
+[9/16/2018 10:00:28 AM] Dejan Stankovic: I think there are some things to rebuild... so firstly I need to rebuild or fix some features by standard structure such as db and MVC
+
+[9/16/2018 10:01:25 AM] Dejan Stankovic: Okay. I think this project is on tight deadline. 5th, Oct
+
+[9/16/2018 10:02:20 AM] Dejan Stankovic: So your team decided to work with you for your project? if so, you can hire me, then I can start your project for now.
+
+[9/16/2018 10:02:55 AM] Filip Blazevski: Understandable from what you say. I will talk with the team and we'll get back to you as soon as we can :)
+
+[9/16/2018 10:04:09 AM] Dejan Stankovic: Great.. thanks very much Filip. :) I will wait for your reply.
+
+[9/16/2018 10:51:02 AM] Jacqui Storey: Hi Dejan, we really appreciate your responsiveness. Yes we would like to employ you for our project. However we’d like to have a phone meeting over Upwork after you’ve completed 15 hours work to check that everything is ok and whether there are any issues or questions that need answering. Then we can all agree for you to go ahead and finish the project after that point. This is also a risk management strategy on our behalf.
+
+Are you able to start now? And we can meet with you over phone on Tuesday or Wednesday for the check up. Many thanks, Jacqui
+
+[9/16/2018 11:11:25 AM] Dejan Stankovic: Hello Jacqui,
+
+Thanks very much.
+I can start your project for now.
+Can we discuss on skype for the meeting?
+
+Then you have dev site? if you have it, you can see check my works on your dev site.
+
+Thanks
+Dejan
+
+[9/16/2018 12:51:10 PM] Filip Blazevski: Hi Dejan, I speak Macedonian as well as a bit of Serbian. My mum is Serbian so I understand it pretty well. I'm sure we can find a great way to communicate regardless of the type of communication :) Talk soon, have a great night!
+
+[9/16/2018 2:24:37 PM] Jacqui Storey: Our business is called Future Smith. We're a social enterprise launching on 5th October this year. We need your help to get us there.
+
+We have a tech team but we have limited time! We need you to have excellent skills in Bootstrap and Laravel. We need someone who can work independently but ask for help when they need it.
+
+We're on a tight deadline. We'd like to you to work with us on 2 sprints before our launch. This will involve about 32 hours in total. All going well, we'd like to have you as an on-going ad-hoc developer when needed. It will be remote work and many of our team are also remote so we're used to that!
+
+Please contact us ASAP.
+
+[9/16/2018 2:29:45 PM] Dejan Stankovic: Hi jacqui
+
+[9/16/2018 2:41:54 PM] Dejan Stankovic: 
+Before starting this job, you are agree with calling on SKYPE about this project(so far I have communicated with other upwork clients through SKYPE)?
+your budget is 32 hrs to take whole jobs in total (35 * 32 = $1120).
+
+I just confirmed about this before accepting your offer.
+
+I will wait for your reply.
+
+Best Regards
+Dejan
+
+[9/16/2018 2:53:18 PM] Dejan Stankovic: Then do you have design? I need to fix somethings on current site. Now site is broken.
+
+[9/16/2018 3:12:03 PM] Dejan Stankovic: hello jacqui?
+
+[9/16/2018 3:12:31 PM] Dejan Stankovic: If you are familiar with upwork messenger, we can chat on skype.
+
+[9/16/2018 3:13:12 PM] Dejan Stankovic: dejan.stankovic19800303@gmail.com
+
+[9/16/2018 11:19:39 PM] Jacqui Storey: Thanks for checking those details. Yes I agree to $1,1120 with the option of extending.
+
+[9/16/2018 11:20:21 PM] Jacqui Storey: Calling over the Upwork video function would suit me better in keeping all information in the same area e.g. how long we spent on the call together and so on.
+
+[9/17/2018 8:35:25 AM] Dejan Stankovic: Hi Jacqui,
+
+Thanks for your reply.
+But I am sorry I can't work on your job for now.
+
+Regarding estimate, I can't accept your offer.
+Your project doesn't implemented MVC pattern. your developers didn't use any Model. It is very important on laravel and other frameworks.
+Then they didn't implemented according to standard team work rule on laravel and there are some problems on frontend.
+
+To complete your tasks, I need to redesign DB and review & update the whole of backend and frontend code base.
+And I have to work 12+ hours per day for it.
+So I can't meet your deadline and your budget isn't suitable for me... I prefer 3K USD for this project.
+
+I can understand about your situation and then I hope to find another good honest developer and have a good results.
+But when you need me on your project later, please contact to me freely. I will help you my best.
+
+Finally I just wanted to work with you, but I can't.
+Sorry again for inconvinience.
+
+Thanks,
+Dejan.
+
+PS:
+If you want, I can send you list of your site development's risks and mistakes... :)
+Database structure.
+Laravel structure(including backend and frontend)
+
+[9/17/2018 9:39:22 AM] Dejan Stankovic: Thanks
+
+[9/18/2018 12:04:19 AM] Jacqui Storey: Hi Dejan,
+
+Thanks for your honest appraisal and feedback. We're in a tricky circumstance now that we're getting closer to our launch date. We had a previous developer back out of the contract without notice which is why we're now so close to the deadline.
+
+Do you see another way you could approach this development that would keep us under $2,000 AUD?
+
+Many thanks again,
+Jacqui
+
+[9/18/2018 6:22:37 AM] Dejan Stankovic: Hi Jacqui,
+
+Thanks for your reply.
+
+
+
+
+
+[9/18/2018 6:33:26 AM] Dejan Stankovic: I understand about your situation...
+This project was suitable for me... But I couldn't understand about your call team meeting...
+
+
+
+you need developer who know well about laravel.
+It is very important.
+
+
+you need to change some archtecture of laravel and database. (if you developer is senior laravel one, you can finish within 1 day)
+
+
+Thanks
+
+[9/18/2018 6:34:04 AM] Dejan Stankovic: please let me know if you need more deatil answer.
+
+[9/18/2018 9:18:27 AM] Jacqui Storey: Hey Dejan,
+Are you available to talk with me and Filip on the Upwork call?
+
+
+Could you achieve this project plan if we extended the timeline to 12th October?
+Is it faster for you to work from scratch (totally new website) or to develop using the existing platform?
+What part of this project plan would take you the most time?
+Are you ok with us holding a team meeting with you half way through the project to check that everything is ok?
+
+Many thanks,
+Jacqui
+
+[9/18/2018 9:33:30 AM] Dejan Stankovic: 
+yes, it is possible to finish to 12 th october
+if you hire me, I will work fro the scratch. It is very fast.
+first, I will build the archtecture of your site with laravel and then will work with other developers.
+I can do whole site myself, but as tight deadline, we can divide this task with others.
+Question: there are frontend and admin panel in your site? I think it needs on your site.
+I agree with your team meeting, but only skype. I am very familar with skype.
+
+Thanks
+Dejan
+
+[9/18/2018 9:39:50 AM] Dejan Stankovic: then other question
+
+[9/18/2018 9:40:00 AM] Dejan Stankovic: You have designs for your site?
+
+[9/18/2018 9:42:42 AM] Jacqui Storey: Hi Dejan,
+
+Thanks for your quick response. That is great news. In answer to your question, yes we do need an admin panel, that is a good idea.
+
+
+
+Are you able to meet on skype in an hour? We would like to get moving on this project immediately.
+
+
+In terms of the budget, $3,000AUD is our absolute maximum. What can you achieve on this budget? Filip, our developer, will be able to take on some of the development tasks as well particularly with the front end.
+
+
+Is there any particular reason you want to use skype instead of Upwork call/video?
+
+
+Many thanks,
+Jacqui
+
+[9/18/2018 9:44:55 AM] Dejan Stankovic: How many developers do you have on your team?
+
+[9/18/2018 10:25:01 AM] Jacqui Storey: Just one developer. We also have a User experience designer and graphic designer for the front end.
+
+[9/18/2018 10:34:44 AM] Jacqui Storey: Our developer is also a junior developer, so we'll be relying on you to lead the project
+
+[9/18/2018 10:35:01 AM] Dejan Stankovic: Great
+
+[9/18/2018 10:36:18 AM] Dejan Stankovic: So total are 3 members except for on your team
+
+[9/18/2018 10:36:21 AM] Dejan Stankovic: right?
+
+[9/18/2018 10:36:52 AM] Dejan Stankovic: if you hire me, your teams are 5 members including you.
+
+[9/18/2018 10:37:42 AM] Jacqui Storey: In total we have 6 people on the Future Smith team.
+
+[9/18/2018 10:38:23 AM] Dejan Stankovic: Okay...
+
+[9/18/2018 10:38:33 AM] Jacqui Storey: 3 graphic designers/motion designers. 1 user experience designer. 1 junior developer. 1 business manager.
+
+In the past we had 1 senior developer who has now gone.
+
+[9/18/2018 10:38:51 AM] Dejan Stankovic: I don't want to work with many developers on your project.
+
+[9/18/2018 10:39:04 AM] Jacqui Storey: That's fine. We only have 1 junior developer.
+
+[9/18/2018 10:39:12 AM] Dejan Stankovic: because your project is on tight deadline.
+
+[9/18/2018 10:39:50 AM] Dejan Stankovic: so if your developer works as before on your current site, your project will be on risk...
+
+[9/18/2018 10:39:55 AM] Dejan Stankovic: I am sure about this...
+
+[9/18/2018 10:40:08 AM] Dejan Stankovic: as you know, I have worked following site for 3 years.
+
+[9/18/2018 10:40:11 AM] Dejan Stankovic: ijobdesk
+
+[9/18/2018 10:40:43 AM] Dejan Stankovic: So I know the processing with laravel development...
+
+[9/18/2018 10:41:05 AM] Dejan Stankovic: It is my suggestion for now, but if you hire me...
+
+[9/18/2018 10:41:57 AM] Dejan Stankovic: then I haven't work with upwork calling so far... with upwork clients...
+
+[9/18/2018 10:42:13 AM] Dejan Stankovic: so I wan't familar with here....
+
+[9/18/2018 10:43:18 AM] Dejan Stankovic: then when discussing about your job with your developer daily, I need to discuss through voice call?
+
+[9/18/2018 10:44:06 AM] Dejan Stankovic: I can agree your team meeting through voice..
+
+[9/18/2018 10:44:44 AM] Dejan Stankovic: Jacqui , you there?
+
+[9/18/2018 10:47:02 AM] Jacqui Storey: Hi Dejan, no you don't have to discuss through voice call regularly. You can just message each other through this channel or through a different chat channel.
+
+[9/18/2018 10:47:40 AM] Dejan Stankovic: Great.
+
+[9/18/2018 10:48:04 AM] Dejan Stankovic: So we can have a meeting on sky pe ?
+
+[9/18/2018 10:48:23 AM] Dejan Stankovic: 1 time in every week..
+
+[9/18/2018 10:48:33 AM] Dejan Stankovic: then you have design files for your site?
+
+[9/18/2018 10:49:31 AM] Jacqui Storey: Hi Dejan, with all this new information we have to discuss with the team.
+
+[9/18/2018 10:50:22 AM] Jacqui Storey: Can we organise to skype with you tomorrow?
+
+[9/18/2018 10:50:29 AM] Dejan Stankovic: Oh... so you don't have any design yet?
+
+[9/18/2018 10:50:35 AM] Dejan Stankovic: Okay....
+
+[9/18/2018 10:50:59 AM] Dejan Stankovic: So what can we do today?
+
+[9/18/2018 10:51:15 AM] Jacqui Storey: Ummm we have some parts of the design.
+
+[9/18/2018 10:51:40 AM] Dejan Stankovic: Okay...
+
+[9/18/2018 10:51:54 AM] Dejan Stankovic: so I mean what is task for me today?
+
+[9/18/2018 10:52:30 AM] Jacqui Storey: This is now a lot of our funds that we're putting towards this development. We estimated much less so we have to make sure we make a good decision.
+
+[9/18/2018 10:53:34 AM] Dejan Stankovic: Yes, I know...
+
+[9/18/2018 10:53:43 AM] Dejan Stankovic: so you mean you can decide if you hire me or not.
+
+[9/18/2018 10:53:45 AM] Dejan Stankovic: tomorrow
+
+[9/18/2018 10:54:11 AM] Dejan Stankovic: because your project is very urgent... so I just wanted to begin today....
+
+[9/18/2018 10:55:20 AM] Jacqui Storey: Yes we will decide tomorrow. We contacted two other developers when you intially said you weren't able to take the project. We will also wait to hear from them.
+
+[9/18/2018 10:55:33 AM] Jacqui Storey: We can meet now over skype for a short conversation if that is ok with you?
+
+[9/18/2018 10:55:57 AM] Dejan Stankovic: Okay...
+
+[9/18/2018 10:56:01 AM] Dejan Stankovic: No problem.
+
+[9/18/2018 10:56:24 AM] Jacqui Storey: great. my skype name is jacqueline.storey3
+
+[9/18/2018 10:56:26 AM] Jacqui Storey: what is yours?
+
+[9/18/2018 10:56:47 AM] Dejan Stankovic: dejan.stankovic19800303@gmail.com
+
+[9/18/2018 10:57:46 AM] Dejan Stankovic: well, I was planning to start your job from the scratch... but I can refer previous works... this will be saved time...
+
+[9/18/2018 10:58:04 AM] Dejan Stankovic: But if you are on interviewing on two developers, I will wait you tomorrow on skype
+
+[9/18/2018 10:58:05 AM] Dejan Stankovic: Thanks
+
+[9/18/2018 10:58:45 AM] Dejan Stankovic: This is your decision... :)
+Thanks for your time
+
+[9/18/2018 10:58:59 AM] Jacqui Storey: ok no problems. We'll contact you tomorrow.
+
+[9/19/2018 7:03:23 AM] Dejan Stankovic: Hey Jacqui,
+
+[9/19/2018 7:04:10 AM] Dejan Stankovic: How are you?
+Would you update me for your project, please?
+
+[9/19/2018 9:05:51 AM] Jacqui Storey: Hi Dejan, no problems. We will contact you later this afternoon (our time). Thanks for following up.
+
+[9/19/2018 10:23:35 AM] Jacqui Storey: Hi Dejan, are you available for a chat now?
+
+[9/19/2018 10:26:17 AM] Jacqui Storey: Do you feel uncomfortable speaking over the phone?
+
+[9/19/2018 10:40:04 AM] Jacqui Storey: I mainly want to talk about the fees. Are you able to complete the required work in under $3,000AUD. We have a very limited budget.
+
+[9/19/2018 10:41:03 AM] Dejan Stankovic: Hi Jacqui
+
+[9/19/2018 10:41:06 AM] Dejan Stankovic: I am here
+
+[9/19/2018 10:42:04 AM] Dejan Stankovic: I think I can do this with your budget... but it is very important to finish wihtin your deadline.
+
+[9/19/2018 10:42:36 AM] Dejan Stankovic: Maybe I need to do many works with full time... hardworking...
+
+[9/19/2018 11:03:15 AM] Dejan Stankovic: Are you there?
+
+[9/19/2018 11:22:24 AM] Jacqui Storey: HI Dejan, I'm sorry to put you under time pressure. What deadline would be achievable for you. Is the 12th October enough of an extension?
+
+[9/19/2018 11:25:25 AM] Dejan Stankovic: So you mean the deadline is 12 th October?
+
+[9/19/2018 11:25:40 AM] Dejan Stankovic: including admin panel...
+
+[9/19/2018 11:25:46 AM] Dejan Stankovic: Right?
+
+[9/19/2018 11:32:58 AM] Dejan Stankovic: Now I am planning as following.
+
+[9/19/2018 11:34:44 AM] Dejan Stankovic: 
+I will revert current site from the scratch(normal development on laravel site) within 2 days...
+
+
+[9/19/2018 11:35:00 AM] Dejan Stankovic: 
+I will implement your designs within 2 days.
+
+
+[9/19/2018 11:35:59 AM] Dejan Stankovic: 
+I will discuss about current works with you and fix & add some issues and requirements. - 2 days
+
+
+[9/19/2018 11:36:53 AM] Dejan Stankovic: 
+I will finialize on frontend - 1 day
+
+
+[9/19/2018 11:37:05 AM] Dejan Stankovic: 
+I will start in admin panel - 4 days.
+
+
+[9/19/2018 11:37:58 AM] Dejan Stankovic: 
+I will fix issues on site. maybe you can check whole sites or by your test team... - 3 days
+
+
+[9/19/2018 11:39:09 AM] Dejan Stankovic: That is my schedule. but according to sitation, the development schedule can change... But I will keep deadline....
+
+[9/19/2018 11:51:47 AM] Jacqui Storey: ok that sounds excellent
+
+[9/19/2018 11:52:28 AM] Jacqui Storey: Let's go ahead with the contract.
+
+[9/19/2018 11:52:36 AM] Dejan Stankovic: Okay...
+
+[9/19/2018 11:52:58 AM] Dejan Stankovic: Then you can jump on skype?
+
+[9/19/2018 11:56:11 AM] Jacqui Storey: yes sure, I just tried calling
+
+[9/19/2018 12:30:24 PM] Jacqui Storey: Hi Dejan, I just completed the offer.
+
+
+
+
+
+
+
+
+
+
+
+
+[9/19/2018 12:24:54 PM] Jacqui Storey: Thank you for applying for this project. We are building an online platform for a volunteering community. Part of it has been developed, but we require support for some key features of the site. We have a broad project plan and a set of requirements in place. With the platform launch happening soon, we have a deadline of 12th Oct.
+
+Project Steps as describe by Dejan after reviewing the project plan, requirements, existing code and bit bucket;
+
+
+I will revert current site from the scratch(normal development on laravel site) within 2 days...
+I will implement your designs within 2 days.
+I will discuss about current works with you and fix & add some issues and requirements. - 2 days
+I will finialize on frontend - 1 day
+I will start in admin panel - 4 days.
+I will fix issues on site. maybe you can check whole sites or by your test team... - 3 days
+
+Other details;
+Dashboard
+1.1 Stats of users
+1.2 Stats of transactions
+User Management
+2.1 List of signup members.
+2.2 Overview of each user
+Tribs Management
+3.1 List of tribs
+3.2 Overview of tribs(members, projects)
+Project Management
+4.1 List of project
+4.2 Overview of Project(By tribs)
+Payment Management.
+5.1 all transactions.
+Settings
+6.1 Strip API configuration
+Message Board
+7.1 Send Message
+6.2 View all message by user.
+Roles and Permission Management
+Subscription Management
+9.1 Add new subscription
+9.2 List of all subscription(By user)
+
+[9/19/2018 12:30:09 PM] Jacqui Storey: Offer changed
+
+[9/19/2018 12:30:10 PM] Jacqui Storey: Thank you for applying for this project. We are building an online platform for a volunteering community. Part of it has been developed, but we require support for some key features of the site. We have a broad project plan and a set of requirements in place. With the platform launch happening soon, we have a deadline of 12th Oct.
+
+Project Steps as describe by Dejan after reviewing the project plan, requirements, existing code and bit bucket;
+
+
+I will revert current site from the scratch(normal development on laravel site) within 2 days...
+I will implement your designs within 2 days.
+I will discuss about current works with you and fix & add some issues and requirements. - 2 days
+I will finialize on frontend - 1 day
+I will start in admin panel - 4 days.
+I will fix issues on site. maybe you can check whole sites or by your test team... - 3 days
+
+Other details;
+Dashboard
+1.1 Stats of users
+1.2 Stats of transactions
+User Management
+2.1 List of signup members.
+2.2 Overview of each user
+Tribs Management
+3.1 List of tribs
+3.2 Overview of tribs(members, projects)
+Project Management
+4.1 List of project
+4.2 Overview of Project(By tribs)
+Payment Management.
+5.1 all transactions.
+Settings
+6.1 Strip API configuration
+Message Board
+7.1 Send Message
+6.2 View all message by user.
+Roles and Permission Management
+Subscription Management
+9.1 Add new subscription
+9.2 List of all subscription(By user)
+
+[9/19/2018 12:31:22 PM] Dejan Stankovic: Thanks
+
+[9/19/2018 12:33:26 PM] Dejan Stankovic: Hi Jacqui, I just accepted your offer...
+
+[9/19/2018 12:33:53 PM] Dejan Stankovic: then do you have dev site? and then repository such as bitbucket, github?
+
+[9/19/2018 12:34:56 PM] Dejan Stankovic: So I can update my works in your dev site and repository, and then you check my works...
+
+[9/19/2018 12:35:05 PM] Dejan Stankovic: and your site.
+
+[9/19/2018 12:35:39 PM] Dejan Stankovic: If you don't have any repository for this project, I can create new project in bitbucket.
+
+[9/19/2018 12:39:12 PM] Dejan Stankovic: Okay... no problem. It is not important for now... but we will need those information in future...
+
+[9/19/2018 12:53:19 PM] Jacqui Storey: Yes we have one. Filip will know these details.
+
+[9/19/2018 1:18:39 PM] Filip Blazevski: Hi Dejan, I've given you access to two git repositories. One with the original code and I've created a new one which is empty and available for you to use if you would like. The Original: https://bitbucket.org/futuresmiths/futuresmith/src/master/ The Empty One: https://bitbucket.org/blazevskifilip/future-smith/src. You should have access to both. We don't have a development site available at the moment, but I can happily run it locally to check your work :D
+
+[9/20/2018 12:32:28 AM] Jacqui Storey: Hi Dejan, Let us know if there's anything else you need to help you work well on this project. Please don't compromise your health, in our team we all try to balance our workload so we get good sleep and stay health.
+
+[9/20/2018 12:16:51 PM] Dejan Stankovic: Hey Jacqui,
+
+[9/20/2018 12:17:00 PM] Dejan Stankovic: Thanks for very much...
+
+[9/20/2018 12:17:19 PM] Dejan Stankovic: I am still working on your site for first milestone..
+
+[9/20/2018 12:18:10 PM] Dejan Stankovic: I will often update dev repository. Then you can check my works
+
+[9/20/2018 12:18:32 PM] Dejan Stankovic: then Filip.
+
+[9/20/2018 12:18:44 PM] Dejan Stankovic: How are you?
+
+[9/20/2018 12:18:58 PM] Dejan Stankovic: So did you check my works on repositor?
+
+[9/20/2018 12:19:08 PM] Dejan Stankovic: If not so, it is no problem
+
+[9/20/2018 12:19:15 PM] Dejan Stankovic: I am still working...
+
+[9/20/2018 12:19:24 PM] Filip Blazevski: Hey Dejan, I've checked out what you've done so far on the repository! Thanks for the quick works :)
+
+[9/20/2018 12:19:51 PM] Filip Blazevski: So far awesome job!
+
+[9/20/2018 12:19:59 PM] Dejan Stankovic: Maybe I will update again soon.
+
+[9/20/2018 12:20:32 PM] Dejan Stankovic: I think I can complete to revert your site... but only for func...
+
+[9/20/2018 12:21:13 PM] Dejan Stankovic: Then Filip, we have design for site for now?
+
+[9/20/2018 12:21:28 PM] Dejan Stankovic: I can complete to revert your site tomorrow
+
+[9/20/2018 12:21:52 PM] Filip Blazevski: We do have some 'prototype' for a design but not actually implemented... Please give me a minute to retrieve those details
+
+[9/20/2018 12:22:32 PM] Dejan Stankovic: after that, I need to fix and implement design and subscriptions(strip).
+
+[9/20/2018 12:22:42 PM] Dejan Stankovic: My last question.
+
+[9/20/2018 12:22:51 PM] Dejan Stankovic: do you have strip dev account?
+
+[9/20/2018 12:23:03 PM] Filip Blazevski: I believe I do have a stripe dev account yes
+
+[9/20/2018 12:23:30 PM] Dejan Stankovic: Okau, I will let you know when Ineed. :)
+
+[9/20/2018 12:33:01 PM] Filip Blazevski: We have some designs but they do not reflect our current theme colours, I've contacted our designer and they will promptly update with our theme and I'll forward the designs to you :)
+
+[9/20/2018 12:39:41 PM] Dejan Stankovic: Great :)
+
+[9/21/2018 3:58:33 AM] Dejan Stankovic: Hi Filip
+Would you send me the prototype for design, please?
+
+[9/21/2018 9:16:55 AM] Dejan Stankovic: HI jacqui
+
+[9/21/2018 9:21:32 AM] Dejan Stankovic: Hi Jacqui, Filip
+
+Now I have finished first milestone and we can go to next milestone.
+So I have required the design or prototype from Fillip.
+
+I just wanted to update you.
+
+Thanks
+Dejan
+
+[9/21/2018 9:23:54 AM] Dejan Stankovic: Hi Jacqui,
+
+Now I have finished first milestone and we can go to next milestone.
+So I have required the design or prototype from Fillip.
+
+I just wanted to update you.
+
+Thanks
+Dejan
+
+[9/21/2018 9:33:03 AM] Jacqui Storey: First milestone achieved.
+We are really happy with your work so far. Many thanks, Jacqui
+
+[9/21/2018 9:39:03 AM] Dejan Stankovic: Then when can you send me prototype or designs?
+
+[9/21/2018 2:42:47 PM] Filip Blazevski: Hi Dejan please find attached on the landing page for the main website. Our designer is working hard to bring in the new designs for you to see. Please bare with us while we get that sorted as soon as possible :)
+
+[9/21/2018 3:02:07 PM] Dejan Stankovic: Hi Jacqui, Thanks for your update. Would you send me PSD file instead of jpg, png when you are ready for design of pages, please?
+
+[9/21/2018 3:02:10 PM] Dejan Stankovic: Thank
+
+
+
+
+
+
+HI Dejan, thank you for your great questions.
+
+1.1 The user pays one fee. The user has a limit of joining 3 tribes maximum.
+
+1.2 Yes a tribe owner can also join other tribes and lead projects in other tribes. So yes your scenario is possible.
+
+1.3 yes the sponsor may not wish to log in, they could give a one-time donation of money.
+
+
+yes that is a right, a visitor has signed up but hasn't got paid subscription
+
+
+
+
+////
+
+Hi Dejan,
+
+We use Sketch software for making the UI design, and therefore do not have a PSD file to share.
+However, I have uploaded the designs onto Invision platform from which you should be able to get the specifications. I have sent you an invitation on your email ID to join.
+
+Are you familiar with Sketch or Invision? If not, I am happy to guide you through it.
+Invision has an 'Inspector Mode' from which you can get design specifications.
+Attached is a screenshot of what it looks like.
+Here is a video tour: https://www.youtube.com/watch?v=TPwq3iYMzm4
+
+Let me know if you need any other details.
+
+Regards,
+
+
+Hi Jacqui.
+
+I was wondering if you checked my question on your design.
+I've almost done with your designs i can have confidence on.
+But I need your reply about my questions on designs for more development.
+I think the daily or frequently communication is good for our project.
+I suggest we'd better communicate in several ways daily or frequently.
+
+Regards,
+Dejan
+
+
+
+Hi Jacqui and Anisha
+
+I will go on with screens which is the most clear according to me.
+I've pushed all updates to bitbucket.
+
+Anyway I'd like to know which is the completed screen and which is not.
+For me, it can be wasting time if I will develop on screens in dicussion or working because those might be changeable in future and need my extra work on that change.
+
+So just like I said, we'd better communicate each other frequently and daily.
+From now on, the frequent communication will be important to avoid unnecessay misunderstanding on project.
+The share on this is a little bit slow. Please use all possible other ways like s, mail, anything else to communicate each other, with Jacqui, with Anisha, and with others.
+
+I am looking forward to hearing from you soon.
+
+Regards
+
+Dejan
+
+
+Hi Dejan,
+
+The landing page (the page with visual design and colours) is complete. Can
+you can start with this and perhaps work on other backend work if you are
+done?
+
+I will get back to you with answers to all your questions in a few hours. I
+have gone through the document, and realise that it needs a detailed reply.
+
+Email is the best way to communicate I think. I am having problems due to
+the format of the current PPT. However I have figured out a solution and
+will communicate later today.
+
+Hope that helps.
+Cheers,
+Anisha
